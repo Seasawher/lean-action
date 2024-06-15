@@ -114,7 +114,7 @@ runs:
       run: |
         : Get Mathlib Cache
         echo "::group::Mathlib Cache"
-        lake exe cache get
+        lake exe cache get!
         echo "::endgroup::"
         echo
       shell: bash
